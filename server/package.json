@@ -1,0 +1,29 @@
+{
+  "name": "gardeners-server",
+  "version": "1.0.0",
+  "description": "Backend Server for Gardeners (Community Management)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tahmid-sarker/gardeners.git"
+  },
+  "author": {
+    "name": "Tahmid Sarker",
+    "url": "https://tahmid-sarker.github.io"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahmid-sarker/gardeners/issues"
+  },
+  "homepage": "https://tahmid-sarker.github.io/gardeners/",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0"
+  }
+}

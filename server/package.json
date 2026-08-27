@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/tahmid-sarker/gardeners/issues"
   },
-  "homepage": "https://tahmid-sarker.github.io/gardeners/",
+  "homepage": "https://gardener-connect.web.app",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",

@@ -8,7 +8,11 @@ require("dotenv").config({ path: require("path").resolve(__dirname, ".env.produc
 
 //Middleware
 app.use(cors({
-  origin: ["http://localhost:5173", "https://tahmid-sarker.github.io"],
+  origin: [
+    "http://localhost:5173",
+    "https://gardener-connect.web.app",
+    "https://gardener-connect.firebaseapp.com",
+  ],
 }));
 app.use(express.json());
 

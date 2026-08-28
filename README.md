@@ -1,6 +1,7 @@
 # Gardeners (Community Management)
 
-- [**View Live**](https://tahmid-sarker.github.io/gardeners/)
+- [**Client Live (Firebase)**](https://gardener-connect.web.app)
+- [**API Live (Vercel)**](https://gardener-connect.vercel.app)
 
 Gardeners is a community management web application designed to connect gardening enthusiasts with talented gardeners, share gardening tips, and build a vibrant green community. Users can explore featured gardeners, trending gardening tips, and participate in community events.
 

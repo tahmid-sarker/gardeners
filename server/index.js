@@ -50,12 +50,6 @@ app.post("/users", async (req, res) => {
   res.send(result);
 });
 
-// Get All user info (Read)
-app.get("/users", async (req, res) => {
-  const result = await userCollection.find().toArray();
-  res.send(result);
-});
-
 // Get user logged info (Update)
 app.patch("/users/login", async (req, res) => {
   const { email, lastSignInTime } = req.body;
